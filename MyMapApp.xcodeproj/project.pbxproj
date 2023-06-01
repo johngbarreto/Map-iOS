@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = CQM92F4CPM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMapApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Requires location so the application can suggest proper information around him";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +319,7 @@
 				DEVELOPMENT_TEAM = CQM92F4CPM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMapApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Requires location so the application can suggest proper information around him";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
