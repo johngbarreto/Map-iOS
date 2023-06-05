@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910DA1572A29344600CE551B /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DA1562A29344600CE551B /* PlaceAnnotation.swift */; };
+		910DA15A2A293E8B00CE551B /* CLLocationDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DA1592A293E8B00CE551B /* CLLocationDefault.swift */; };
+		910DA15D2A29449000CE551B /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DA15C2A29449000CE551B /* PlacesTableViewController.swift */; };
+		91C0BA792A2E7435004E8ADB /* PlaceDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0BA782A2E7435004E8ADB /* PlaceDetailController.swift */; };
+		91C0BA7B2A2E880B004E8ADB /* PhoneNumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0BA7A2A2E880B004E8ADB /* PhoneNumberFormat.swift */; };
 		91E7F2972A1BCCBC00B2574C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7F2962A1BCCBC00B2574C /* AppDelegate.swift */; };
 		91E7F2992A1BCCBC00B2574C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7F2982A1BCCBC00B2574C /* SceneDelegate.swift */; };
 		91E7F29B2A1BCCBC00B2574C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7F29A2A1BCCBC00B2574C /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910DA1562A29344600CE551B /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		910DA1592A293E8B00CE551B /* CLLocationDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationDefault.swift; sourceTree = "<group>"; };
+		910DA15C2A29449000CE551B /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		91C0BA782A2E7435004E8ADB /* PlaceDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailController.swift; sourceTree = "<group>"; };
+		91C0BA7A2A2E880B004E8ADB /* PhoneNumberFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormat.swift; sourceTree = "<group>"; };
 		91E7F2932A1BCCBC00B2574C /* MyMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E7F2962A1BCCBC00B2574C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E7F2982A1BCCBC00B2574C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910DA1552A29342D00CE551B /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				910DA1562A29344600CE551B /* PlaceAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		910DA1582A293E7500CE551B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				910DA1592A293E8B00CE551B /* CLLocationDefault.swift */,
+				91C0BA7A2A2E880B004E8ADB /* PhoneNumberFormat.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		910DA15B2A29447400CE551B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				91E7F29A2A1BCCBC00B2574C /* ViewController.swift */,
+				910DA15C2A29449000CE551B /* PlacesTableViewController.swift */,
+				91C0BA782A2E7435004E8ADB /* PlaceDetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		91E7F28A2A1BCCBC00B2574C = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +93,11 @@
 		91E7F2952A1BCCBC00B2574C /* MyMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				910DA15B2A29447400CE551B /* Controllers */,
+				910DA1582A293E7500CE551B /* Extensions */,
+				910DA1552A29342D00CE551B /* Annotations */,
 				91E7F2962A1BCCBC00B2574C /* AppDelegate.swift */,
 				91E7F2982A1BCCBC00B2574C /* SceneDelegate.swift */,
-				91E7F29A2A1BCCBC00B2574C /* ViewController.swift */,
 				91E7F29C2A1BCCBC00B2574C /* Main.storyboard */,
 				91E7F29F2A1BCCBD00B2574C /* Assets.xcassets */,
 				91E7F2A12A1BCCBD00B2574C /* LaunchScreen.storyboard */,
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910DA1572A29344600CE551B /* PlaceAnnotation.swift in Sources */,
+				91C0BA792A2E7435004E8ADB /* PlaceDetailController.swift in Sources */,
 				91E7F29B2A1BCCBC00B2574C /* ViewController.swift in Sources */,
 				91E7F2972A1BCCBC00B2574C /* AppDelegate.swift in Sources */,
 				91E7F2992A1BCCBC00B2574C /* SceneDelegate.swift in Sources */,
+				910DA15A2A293E8B00CE551B /* CLLocationDefault.swift in Sources */,
+				91C0BA7B2A2E880B004E8ADB /* PhoneNumberFormat.swift in Sources */,
+				910DA15D2A29449000CE551B /* PlacesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
